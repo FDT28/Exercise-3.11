@@ -10,7 +10,7 @@ public class App{
         int daysInMonth = getDaysInMonth(year, month);
         YearMonth yearMonth = YearMonth.of(year, month);
         String monthName = yearMonth.getMonth().getDisplayName(java.time.format.TextStyle.FULL, java.util.Locale.getDefault());
-        System.out.println("Number of days in " + monthName + " " + year + "is " + daysInMonth);
+        System.out.println("Number of days in " + monthName + " " + year + " is " + daysInMonth);
 
     }
     private static int getDaysInMonth(int year, int month) {
