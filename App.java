@@ -16,10 +16,13 @@ public class App{
         YearMonth yearMonth = YearMonth.of(year, month);
         String monthName = yearMonth.getMonth().getDisplayName(java.time.format.TextStyle.FULL, java.util.Locale.getDefault());
         System.out.println("Number of days in " + monthName + " " + year + " is " + daysInMonth + " days");
-        }
+
+        scanner.close();
+     }
     private static int getDaysInMonth(int year, int month) {
     YearMonth yearMonth = YearMonth.of(year, month);
     int daysInMonth = yearMonth.lengthOfMonth();
     return daysInMonth;
     }
+
 }
