@@ -3,7 +3,7 @@ import java.time.YearMonth;
 public class App{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the year: ");
+        System.out.println("Enter the Year: ");
         int year = scanner.nextInt();
         System.out.println("Enter the Month (1-12): ");
         int month = scanner.nextInt();
