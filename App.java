@@ -11,8 +11,6 @@ public class App{
             System.out.println("Invalid Month. Please enter month using numbers between 1 to 12");
             System.out.println("Enter the Month (1-12): ");
             month = scanner.nextInt();
-            if (month >= 1 && month <=12);
-            break;
         }
         int daysInMonth = getDaysInMonth(year, month);
         YearMonth yearMonth = YearMonth.of(year, month);
